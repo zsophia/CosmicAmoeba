@@ -1,0 +1,17 @@
+exports.run = async (client, message, args, level) => {// eslint-disable-line no-unused-vars
+  console.log("Test");
+};
+
+exports.conf = {
+  enabled: true,
+  guildOnly: false,
+  aliases: ["alias"],
+  permLevel: "permLevel"
+};
+
+exports.help = {
+  name: "name",
+  category: "category",
+  description: "description",
+  usage: "usage"
+};
